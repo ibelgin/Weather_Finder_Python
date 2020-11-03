@@ -11,6 +11,7 @@ data = result.json()
 temprature = data['main']['temp']
 cordinatelon = data['coord']['lon']
 cordinatelat = data['coord']['lat']
+
 print(temprature," ",cordinatelat," ",cordinatelon)
 
 
